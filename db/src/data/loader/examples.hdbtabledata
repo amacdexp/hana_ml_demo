@@ -1,0 +1,28 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "target_table": "examples.DATA_TBL_FIT",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "DATA_TBL_FIT.csv",
+                "has_header": false
+            },
+            "column_mappings": {
+                "V1": 1,
+                "V2": 2,
+                "V3": 3,
+                "CATEGORY": 4
+            },
+            "import_settings": {
+            	"include_filter" : [ ],
+                "import_columns": [
+	                "V1",
+	                "V2",
+	                "V3",
+	                "CATEGORY"
+                ]
+            }
+        }
+    ]
+}

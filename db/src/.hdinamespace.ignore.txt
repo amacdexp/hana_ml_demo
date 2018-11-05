@@ -1,0 +1,5 @@
+// Rather than delete this , I just renamed to a text fo reference/reminder (see also .hdbcds files)
+{
+    "name":    "hana_ml_demo.db",
+    "subfolder": "ignore"
+}

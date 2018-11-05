@@ -1,0 +1,14 @@
+// Rather than delete this , I just commented it out as a reference/reminder (see also .hdinamespace)
+//namespace hana_ml_demo.db.data;
+
+context examples {
+
+//CREATE COLUMN TABLE PAL_LOGISTICR_DATA_TBL ("V1" VARCHAR (50),"V2" DOUBLE,"V3" INTEGER,"CATEGORY" INTEGER);
+	entity DATA_TBL_FIT {
+		V1			:	String(5);
+		V2			:	Double;
+		V3			:	Integer;
+		CATEGORY	:	Integer;
+	}
+
+};
