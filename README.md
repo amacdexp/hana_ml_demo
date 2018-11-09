@@ -14,3 +14,9 @@ Related:
 
 # Additional extra steps   enabling DI builder if using for 'ML' space
 di-space-enablement-ui        STOPPED           0/1         16.0 MB   <unlimited>   https://hxehost:51027
+
+
+# Test user setup after building the DB
+create user MLUSER Password Password1 NO FORCE_FIRST_PASSWORD_CHANGE;
+grant AFL__SYS_AFL_AFLPAL_EXECUTE to  MLUSER;
+grant "HANA_ML_DEMO_HDI_DB_1"."pythonML" to MLUSER;
