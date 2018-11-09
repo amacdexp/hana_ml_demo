@@ -23,6 +23,29 @@
 	                "CATEGORY"
                 ]
             }
+        },
+        {
+            "target_table": "examples.DATA_TBL_PREDICT",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "DATA_TBL_PREDICT.csv",
+                "has_header": false
+            },
+            "column_mappings": {
+            	"ID": 1,
+                "V1": 2,
+                "V2": 3,
+                "V3": 4
+            },
+            "import_settings": {
+            	"include_filter" : [ ],
+                "import_columns": [
+	                "ID",
+	                "V1",
+	                "V2",
+	                "V3"
+                ]
+            }
         }
     ]
 }

@@ -1,0 +1,9 @@
+{
+	"role":{
+		"name": "pythonML",
+		"schema_privileges": [{
+			
+		   "privileges": ["SELECT METADATA", "SELECT", "INSERT", "UPDATE", "EXECUTE", "DELETE"]
+		}]
+	}
+}

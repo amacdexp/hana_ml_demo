@@ -1,0 +1,12 @@
+{
+  "role": {
+    "name": "external_access",
+    "object_privileges": [
+      {
+        "name": "examples.DATA_TBL_FIT",
+        "type": "TABLE",
+        "privileges": [ "SELECT" ]
+      }
+    ]
+  }
+}
