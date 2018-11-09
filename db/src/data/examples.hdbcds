@@ -28,4 +28,14 @@ context examples {
 		V3			:	Integer;
 		//ID		    :	Integer;
 	}
+	
+// K-MEANS Clustering	
+	//CREATE TYPE PAL_KMEANS_DATA_T AS TABLE(	"ID" INTEGER,"V000" DOUBLE,	"V001" VARCHAR(2),	"V002" DOUBLE);
+	entity PAL_KMEANS_DATA_TBL {
+		ID			:	Integer;
+		V000		:	Double;
+		V001		:	String(2);
+		V002		:	Double;
+	}
+
 };

@@ -46,6 +46,29 @@
 	                "V3"
                 ]
             }
+        },
+        {
+            "target_table": "examples.PAL_KMEANS_DATA_TBL",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "PAL_KMEANS_DATA_TBL.csv",
+                "has_header": false
+            },
+            "column_mappings": {
+            	"ID": 1,
+                "V000": 2,
+                "V001": 3,
+                "V002": 4
+            },
+            "import_settings": {
+            	"include_filter" : [ ],
+                "import_columns": [
+	                "ID",
+	                "V000",
+	                "V001",
+	                "V002"
+                ]
+            }
         }
     ]
 }
