@@ -38,4 +38,22 @@ context examples {
 		V002		:	Double;
 	}
 
+
+// SVM
+	//CREATE COLUMN TABLE PAL_SVM_DATA_TBL ( 
+	//    ID INTEGER,
+	//    ATTRIBUTE1 DOUBLE,
+	//    ATTRIBUTE2 DOUBLE,
+	//    ATTRIBUTE3 DOUBLE,
+	//    ATTRIBUTE4 VARCHAR(10),
+	//    LABEL INTEGER
+	//);
+	entity DATA_TBL_SVC_ONE {
+		ID			:	Integer;
+		ATTRIBUTE1	:	Double;
+		ATTRIBUTE2	:	Double;
+		ATTRIBUTE3	:	Double;
+		ATTRIBUTE4	:	String(10);
+		LABEL		:	Integer;
+	}
 };
