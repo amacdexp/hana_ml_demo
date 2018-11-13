@@ -56,4 +56,50 @@ context examples {
 		ATTRIBUTE4	:	String(10);
 		LABEL		:	Integer;
 	}
+	
+    //CREATE COLUMN TABLE PAL_SVM_PREDICT_DATA_TBL(
+    //    ID INTEGER,
+    //    ATTRIBUTE1 DOUBLE,
+    //    ATTRIBUTE2 DOUBLE,
+    //    ATTRIBUTE3 DOUBLE,
+    //    ATTRIBUTE4 VARCHAR(50)
+    //);
+    entity DATA_TBL_SVC_ONE_PREDICT {
+            ID                      :       Integer;
+            ATTRIBUTE1      :       Double;
+            ATTRIBUTE2      :       Double;
+            ATTRIBUTE3      :       Double;
+            ATTRIBUTE4      :       String(10);
+    }
+
+    entity SVC_PREDICT_DATA_TBL {
+            ID                      :       Integer;
+            ATTRIBUTE1      :       Double;
+            ATTRIBUTE2      :       Double;
+            ATTRIBUTE3      :       Double;
+            ATTRIBUTE4      :       String(10);
+    }
+
+    //SVR
+    //CREATE COLUMN TABLE PAL_SVM_DATA_TBL (
+    //    ID INTEGER,
+    //    ATTRIBUTE1 DOUBLE,
+    //    ATTRIBUTE2 DOUBLE,
+    //    ATTRIBUTE3 DOUBLE,
+    //    ATTRIBUTE4 DOUBLE,
+    //    ATTRIBUTE5 DOUBLE,
+    //    QID VARCHAR(50),
+    //    LABEL INTEGER
+    //);
+    entity DATA_TBL_SVR {
+            ID                      :       Integer;
+            ATTRIBUTE1      :       Double;
+            ATTRIBUTE2      :       Double;
+            ATTRIBUTE3      :       Double;
+            ATTRIBUTE4      :       Double;
+            ATTRIBUTE5      :       Double;
+            QID                     :       String(10);
+            LABEL           :       Integer;
+    }
+	
 };

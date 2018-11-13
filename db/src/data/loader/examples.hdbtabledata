@@ -96,6 +96,56 @@
 	                "LABEL"
                 ]
             }
+        },
+        {
+            "target_table": "examples.DATA_TBL_SVC_ONE_PREDICT",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "DATA_TBL_SVC_ONE_PREDICT.csv",
+                "has_header": false
+            },
+            "column_mappings": {
+                "ID": 1,
+                "ATTRIBUTE1": 2,
+                "ATTRIBUTE2": 3,
+                "ATTRIBUTE3": 4,
+                "ATTRIBUTE4": 5
+            },
+            "import_settings": {
+                "include_filter" : [ ],
+                "import_columns": [
+                        "ID",
+                        "ATTRIBUTE1",
+                        "ATTRIBUTE2",
+                        "ATTRIBUTE3",
+                        "ATTRIBUTE4"
+                ]
+            }
+        },
+        {
+            "target_table": "examples.SVC_PREDICT_DATA_TBL",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "SVC_PREDICT_DATA_TBL.csv",
+                "has_header": false
+            },
+            "column_mappings": {
+                "ID": 1,
+                "ATTRIBUTE1": 2,
+                "ATTRIBUTE2": 3,
+                "ATTRIBUTE3": 4,
+                "ATTRIBUTE4": 5
+            },
+            "import_settings": {
+                "include_filter" : [ ],
+                "import_columns": [
+                        "ID",
+                        "ATTRIBUTE1",
+                        "ATTRIBUTE2",
+                        "ATTRIBUTE3",
+                        "ATTRIBUTE4"
+                ]
+            }
         }
     ]
 }
