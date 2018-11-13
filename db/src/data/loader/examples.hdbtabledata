@@ -146,6 +146,37 @@
                         "ATTRIBUTE4"
                 ]
             }
+        },
+        {
+            "target_table": "examples.DATA_TBL_SVR",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "DATA_TBL_SVR.csv",
+                "has_header": false
+            },
+            "column_mappings": {
+                "ID": 1,
+                "ATTRIBUTE1": 2,
+                "ATTRIBUTE2": 3,
+                "ATTRIBUTE3": 4,
+                "ATTRIBUTE4": 5,
+                "ATTRIBUTE5": 6,
+                "QID": 7,
+                "LABEL": 8
+            },
+            "import_settings": {
+                "include_filter" : [ ],
+                "import_columns": [
+                        "ID",
+                        "ATTRIBUTE1",
+                        "ATTRIBUTE2",
+                        "ATTRIBUTE3",
+                        "ATTRIBUTE4",
+                        "ATTRIBUTE5",
+                        "QID",
+                        "LABEL"
+                ]
+            }
         }
     ]
 }

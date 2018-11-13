@@ -92,13 +92,13 @@ context examples {
     //    LABEL INTEGER
     //);
     entity DATA_TBL_SVR {
-            ID                      :       Integer;
+            ID              :       Integer;
             ATTRIBUTE1      :       Double;
             ATTRIBUTE2      :       Double;
             ATTRIBUTE3      :       Double;
             ATTRIBUTE4      :       Double;
             ATTRIBUTE5      :       Double;
-            QID                     :       String(10);
+            QID             :       String(10);
             LABEL           :       Integer;
     }
 	
